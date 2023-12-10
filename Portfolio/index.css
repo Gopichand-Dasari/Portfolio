@@ -1,0 +1,563 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.containerA {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(#48B 0 0) bottom/100% 25vh no-repeat fixed,
+        linear-gradient(black, rgb(25, 61, 112));
+}
+
+.container {
+    position: absolute;
+    margin-top: 60px;
+    height: 80vh;
+    width: 90%;
+    background: black;
+    margin-left: 70px;
+    border-radius: 15px;
+}
+
+.container1 {
+    display: flex;
+}
+
+.container1 h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.container1 ul {
+    display: flex;
+    margin-left: 333px;
+    margin-top: 30px;
+}
+
+.container1 ul li {
+    margin-left: 40px;
+    list-style-type: none;
+}
+
+.container1 ul li:nth-child(1) a {
+    color: aqua;
+}
+
+.container1 ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Courier New', Courier,;
+    font-weight: 400;
+}
+
+.container1 ul li a:hover {
+    color: aqua;
+}
+
+.container2 {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.cont h1 {
+    color: #fff;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.cont h2 {
+    color: aqua;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.cont p {
+    color: #ddd;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.btn1 {
+    height: 40px;
+    width: 120px;
+    background-color: aqua;
+    margin-top: 50px;
+    border-radius: 5px;
+    color: #222;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.btn1:hover {
+    background-color: transparent;
+    border-color: aqua;
+    color: aqua;
+}
+
+.btn2 {
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-color: aqua;
+    border-radius: 5px;
+    color: aqua;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background: aqua;
+    color: #222;
+}
+
+.image img {
+    height: 280px;
+    width: 350px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 0,0,10%,0;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgb(68, 141, 187) 0 0) bottom/100% 25vh no-repeat fixed,
+    linear-gradient(black, rgb(25, 61, 112));
+}
+.box{
+    position: absolute;
+    margin-top: 60px;
+    height: 80vh;
+    width: 90%;
+    background: black;
+    margin-left: 70px;
+    border-radius: 15px;
+    display: flex;
+}
+.image2{
+    width: 45%;
+    margin-left: 100px;
+    margin-top: 0px;
+
+}
+.image21{
+    height: 340px;
+    width: 350px;
+    border: 10px solid rgb(186, 186, 2);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.box img{
+    height: 350px;
+    width: 350px;
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 0,0,10%,0;
+    background: #fff;
+    border-radius:10px;
+}
+.info{
+    width: 30%;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.info h1{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.info span{
+    color: rgb(186, 186, 2);
+}
+.info p{
+    color: #ddd;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.info a{
+    text-decoration: none;
+}
+.info a button{
+    height: 40px;
+    width: 120px;
+    background: rgb(186, 186, 2);
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0s;
+    transform: translate(2s);
+    border-radius: 5px;
+    border: none;
+}
+.info a button:hover{
+    background: transparent;
+    color: #fff;
+    transform: translate(2s);
+    transition: ease-in;
+    border: 1px solid #fff;
+}
+.skills{
+    height: 170vh;
+    width: 100%;
+    background: linear-gradient(rgb(29, 137, 205) 0 0) bottom/100% 25vh no-repeat fixed,
+    linear-gradient(black, rgb(25, 61, 112));
+}
+.fa-code{
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+span{
+    color: yellow;
+}
+.skills h1{
+    color: #fff;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+.box2{
+    position: absolute;
+    margin-top: 60px;
+    height: 150vh;
+    width: 90%;
+    background: black;
+    margin-left: 70px;
+    border-radius: 15px;
+}
+.section{
+    height: 70vh;
+    display: flex;
+}
+.box21,.box22,.box23{
+    height: 350px;
+    width: 300px;
+    border: 1px solid #fff;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.box21 img,.box22 img,.box23 img{
+    height: 200px;
+    width: 150px;
+}
+.section2{
+    height: 70vh;
+    display: flex;
+}
+
+.box24,.box25,.box26{
+    height: 350px;
+    width: 300px;
+    border: 1px solid #fff;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.box24 img,.box25 img,.box26 img{
+    height: 200px;
+    width: 150px;
+    background: black;
+}
+.fa-sharp,.fa-brands{
+    color: #fff;
+    font-size: 130px;
+    margin-left: 100px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.fa-sharp:hover{
+    color: skyblue;
+    transition: ease-in;
+}
+.fa-python:hover{
+    color: skyblue;
+    transition: ease-in;
+}
+.fa-java:hover{
+    color: skyblue;
+    transition: ease-in;
+}
+.fa-html5:hover{
+    color: skyblue;
+    transition: ease-in;
+}
+.fa-css3-alt:hover{
+    color: skyblue;
+    transition: ease-in;
+}
+.fa-js:hover{
+    color: skyblue;
+    transition: ease-in;
+}
+.fa-sharp{
+    color: aqua;
+}
+.fa-python{
+    color: aquamarine;
+}
+.fa-java{
+    color: rgb(227, 169, 76);
+}
+.fa-html5{
+    color: orange;
+}
+.fa-css3-alt{
+    color: blue;
+}
+.fa-js{
+    color: yellow;
+}
+.box21 h2{
+    color: #fff;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.box22 h2{
+    color: #fff;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+    margin-left: 123px;
+    margin-top: 50px;    
+}
+.box23 h2{
+    color: #fff;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.box24 h2{
+    color: #fff;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+    margin-left: 115px;
+    margin-top: 50px;    
+}
+.box25 h2{
+    color: #fff;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.box26 h2{
+    color: #fff;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-top: 50px;    
+}
+.contact{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgb(58, 169, 237) 0 0) bottom/100% 25vh no-repeat fixed,
+    linear-gradient(black, rgb(25, 61, 112));
+}
+.box3{
+    position: absolute;
+    margin-top: 60px;
+    height: 80vh;
+    width: 90%;
+    background: black;
+    margin-left: 70px;
+    border-radius: 15px;
+}
+.box3 h1{
+    color: #fff;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+    position: absolute;
+    margin-left: 500px;
+}
+.box31{
+    display: flex;
+    height: 30vh;
+    margin-top: 40px;
+}
+.box311{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.box311 h2{
+    font-size: 14px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.box312{
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.box312 .input{
+    margin-top: 10px;
+    height: 30px;
+    width: 500px;
+    background: rgb(54, 53, 53);
+    font-size: 18px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+.box312 .input:focus{
+ outline: none;   
+}
+.input2{
+    height: 80px;
+    width: 500px;
+    margin-top: 10px;
+    background: rgb(54, 53, 53);
+    font-size: 18px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+
+}
+.input2:focus{
+    outline: none;   
+   }
+.box312 a{
+    text-decoration: none;
+}
+.box312 a button{
+   height: 40px;
+   width: 120px;
+   background: rgb(238, 238, 33);
+   color: black;
+   font-size: 18px;
+   font-family: monospace;
+   font-weight: 600;
+   margin-top: 20px;
+   cursor: pointer;
+   border: none;
+   border-radius: 5px;
+}
+
+.box32 h3{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 450px;
+    margin-top: 90px;
+    position: absolute;
+}
+.fa-google {
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 490px;
+    margin-top: 135px;
+    position: absolute;
+}
+
+.fa-google:hover {
+    color: rgb(245, 53, 53);
+    transition: ease-in;
+}
+
+.fa-instagram {
+    color: #fff;
+    margin-left: 525px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 135px;
+    position: absolute;
+}
+
+.fa-instagram:hover {
+    color: rgb(245, 53, 53);
+    transition: step-end;
+}
+
+.fa-facebook-f {
+    color: #fff;
+    margin-left: 560px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 135px;
+    position: absolute;
+}
+
+.fa-facebook-f:hover {
+    color: rgb(245, 53, 53);
+    transition: ease-in-out;
+}
+
+.fa-whatsapp {
+    color: #fff;
+    margin-left: 590px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 135px;
+    position: absolute;
+
+}
+
+.fa-whatsapp:hover {
+    color: rgb(245, 53, 53);
+    transition: ease-in-out;
+}
+
+.fa-twitter {
+    color: #fff;
+    margin-left: 620px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 135px;
+    position: absolute;
+}
+
+.fa-twitter:hover {
+    color: rgb(245, 53, 53);
+    transition: ease-out;
+}
